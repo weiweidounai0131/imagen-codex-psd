@@ -61,7 +61,13 @@ Imagen Codex PSD 将一张 PNG、JPEG 或 WebP 海报整理为可审阅的 PSD�
 
 ### 安装技能和依赖
 
-先在包目录验证 `shasum -a 256 -c SHA256SUMS`。升级已有安装时，将旧目录备份到 `~/.codex/skill-backups/` 等 Skills 目录之外的位置，再将 `skills/imagen-codex-psd/` 放到 `~/.codex/skills/imagen-codex-psd/`。使用独立于 Skills 目录的虚拟环境安装依赖并运行本地检查：
+```sh
+git clone https://github.com/weiweidounai0131/imagen-codex-psd.git
+cd imagen-codex-psd
+( cd skills/imagen-codex-psd && shasum -a 256 -c SHA256SUMS )
+```
+
+升级已有安装时，先将旧目录备份到 `~/.codex/skill-backups/` 等 Skills 目录之外的位置。以下命令从仓库根目录运行，将技能复制到 `~/.codex/skills/imagen-codex-psd/`，再用独立于 Skills 目录的虚拟环境安装依赖并运行本地检查：
 
 ```sh
 mkdir -p ~/.codex/skills
@@ -86,7 +92,7 @@ python3 -m venv /path/to/imagen-psd-venv
 ## 目录导航
 
 ```text
-imagen-codex-psd-github/
+imagen-codex-psd/
 ├── README.md                         # 项目介绍与快速开始
 ├── .gitignore                        # 排除本地运行产物和凭证
 └── skills/

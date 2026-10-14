@@ -1,0 +1,166 @@
+{
+  "package": "imagen-codex-psd",
+  "version": "2.1.2",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size_bytes": 1065,
+      "sha256": "68e435621ab299c7cbe3ad8f088e877f9bca76508c621f27a697606df8ff2154"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2948,
+      "sha256": "9a772d539ef371a17beb6398d6a2e606599a5d440f13d102827c8f68222339c4"
+    },
+    {
+      "path": "SKILL.md",
+      "size_bytes": 7984,
+      "sha256": "ea7f43a19031e13c49535db8e60043c55fc335fbc1ce037d129de51f4023e46d"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1611,
+      "sha256": "5aac3c96a39810917a1fb26bd7df54e0465b79bfbbe044c87ddc636c556025c0"
+    },
+    {
+      "path": "VERSION",
+      "size_bytes": 6,
+      "sha256": "9f6271951edca02e0c8a669a79930626717b77f0443ad8a327b93a52e4194829"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "size_bytes": 248,
+      "sha256": "92f821de5fdc17719b25f3db84ecf62e9f000b3b954a04e5c16c5c961cf6ce03"
+    },
+    {
+      "path": "references/artifact-contracts.md",
+      "size_bytes": 11194,
+      "sha256": "73661aebaabb51a27dd84c7543122cbe5a6f15b20279cc1b517ec1c5b98c00a0"
+    },
+    {
+      "path": "references/asset-exceptions.md",
+      "size_bytes": 2611,
+      "sha256": "875b93cc0dcb984356c45398dbce5e52e1c777d1e0c194660f6ba0c9a70d9f6e"
+    },
+    {
+      "path": "references/decisions-template.json",
+      "size_bytes": 620,
+      "sha256": "9eb63bc697523de4c2ba98457382ac75cf84b37bce5be04210d2162a9e7109be"
+    },
+    {
+      "path": "references/imagegen-prompts.md",
+      "size_bytes": 4416,
+      "sha256": "66ddfd63f20f1c3bdd7dbfd313b089dd2b314f49f6af56d8cd2c72f192aa723f"
+    },
+    {
+      "path": "references/ocr-setup.md",
+      "size_bytes": 3257,
+      "sha256": "5ecb58ff712ef02e05177c1f7cc779d87208a965609c0cf08299d139fa35a943"
+    },
+    {
+      "path": "references/progress-templates.md",
+      "size_bytes": 4143,
+      "sha256": "4a07d3d9503edb9402758f6c4a441864af261c0b311bb732a5a719177eebf8f3"
+    },
+    {
+      "path": "references/workflow.md",
+      "size_bytes": 10765,
+      "sha256": "8e468c0aaf4e95858af71983414ed889c90860b4f48c3db9ee478cca8d239a7c"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 115,
+      "sha256": "daf04d8e84acf391ea82278274ea797d1ccf0afeeb5f673814b69ecf158d6582"
+    },
+    {
+      "path": "scripts/doctor.py",
+      "size_bytes": 2598,
+      "sha256": "4753b767b88aac0090c8bd93c28bc250443b4169a0cb6415027f165b19d71534"
+    },
+    {
+      "path": "scripts/ocr_credentials.py",
+      "size_bytes": 2989,
+      "sha256": "592a16cbc7efffb3935bf06b3f73da485bcea9605e73bffd3e739ae6f850bbdb"
+    },
+    {
+      "path": "scripts/ocr_first_adapter.py",
+      "size_bytes": 12866,
+      "sha256": "57a4e223947ee56f3de17dffa62902855fabeb51b599d8680637ea3332248faf"
+    },
+    {
+      "path": "scripts/prepare_stage3.py",
+      "size_bytes": 31428,
+      "sha256": "7b5efacb9c0799d737e8b04434f60d42cb25d3448b0cdaa668607f9b1b119b0e"
+    },
+    {
+      "path": "scripts/psd_writer.py",
+      "size_bytes": 74263,
+      "sha256": "a1eb900576fe235642171200f359ce1f636878f17ce1fc00dc0075fbd55ac29a"
+    },
+    {
+      "path": "scripts/remove_chroma_key.py",
+      "size_bytes": 13681,
+      "sha256": "9ffeae177a286aaed35710f0ed51734e72073a0c54d86fbe6c56441538cf22c5"
+    },
+    {
+      "path": "scripts/selection_gate.py",
+      "size_bytes": 34021,
+      "sha256": "08e4c95f449376d8e2b556f695a46fc049cabbd799ceeaab817f123873266923"
+    },
+    {
+      "path": "scripts/split_alpha_components.py",
+      "size_bytes": 15636,
+      "sha256": "251cf376055196cbb5377e319ab9e1e124262ff75c82c97a8505ffec082a30d9"
+    },
+    {
+      "path": "scripts/stage3_writer_adapter.py",
+      "size_bytes": 11890,
+      "sha256": "6b71967223e135f3b2fbec6fadb799bbc49567ebb116a3ff42a38c03544da90a"
+    },
+    {
+      "path": "scripts/text_background.py",
+      "size_bytes": 44354,
+      "sha256": "6cc9f5009742bae10d0a016b7937afeca337096a258087487117246104a42b39"
+    },
+    {
+      "path": "scripts/text_first.py",
+      "size_bytes": 59644,
+      "sha256": "f353117363bc654cb08062e9e0b2f418b24d37674bee14160b3e5d878680647b"
+    },
+    {
+      "path": "scripts/text_roles.py",
+      "size_bytes": 19524,
+      "sha256": "ea2d43927504eb086705a7e04f682c5c7035a314467e4dbd02fa40434431787b"
+    },
+    {
+      "path": "tests/test_geometry_and_asset_sheets.py",
+      "size_bytes": 12249,
+      "sha256": "3e2d39aee83d360ac7326ade351293b5a6ca96a36305d359069ed93e88d1a8e2"
+    },
+    {
+      "path": "tests/test_ocr_credentials.py",
+      "size_bytes": 2595,
+      "sha256": "3eaae3358937afca4fad952106af2fd8a732d3955be52a307be7c4133e096dcb"
+    },
+    {
+      "path": "tests/test_package_contract.py",
+      "size_bytes": 5823,
+      "sha256": "f31e21be8fe4fc7978194a75eddc0f4e77f16ccca744c2ae08c78b8137243b49"
+    },
+    {
+      "path": "tests/test_rich_text_runs.py",
+      "size_bytes": 13178,
+      "sha256": "259adff01e0cf1ef2b428f7132c90a7ea90e5bee3152e4ad02ca001a9518469d"
+    },
+    {
+      "path": "tests/test_selection_gate.py",
+      "size_bytes": 12515,
+      "sha256": "bff5eaa0719c18f83f076f68059d814bc64e8ac0343aeb19e62c7963abbf7a19"
+    },
+    {
+      "path": "tests/test_text_roles.py",
+      "size_bytes": 18176,
+      "sha256": "bc5404a460a1eee3ad904cd9ed67a03f50aa1f88b584788aa495715e5adeaa35"
+    }
+  ]
+}

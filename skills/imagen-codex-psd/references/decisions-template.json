@@ -1,0 +1,22 @@
+{
+  "source_sha256": "<copy from run manifest>",
+  "ocr_sha256": "<sha256 of OCR candidates JSON>",
+  "reviewer": "<reviewer name>",
+  "ocr_text_overrides": [],
+  "assignments": [],
+  "supplements": [],
+  "paragraph_groups": [],
+  "whole_image_visual_review": {
+    "status": "pending_visual_review",
+    "reviewer": "<reviewer name>",
+    "reason": "",
+    "coverage_artifact_sha256": "<sha256 of visual-coverage JSON>",
+    "whole_source_visual_review": false,
+    "reviewed_region_ids": [],
+    "region_review_batches": []
+  },
+  "ocr_coverage_review": {
+    "status": "pending_visual_review",
+    "reason": ""
+  }
+}

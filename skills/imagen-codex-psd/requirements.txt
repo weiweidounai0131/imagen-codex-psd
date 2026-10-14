@@ -1,0 +1,7 @@
+Pillow>=10.0.0
+numpy>=1.26.0
+requests>=2.31.0
+psd-tools[composite]>=1.11.0
+pytoshop>=1.2.1
+PyYAML>=6.0
+six>=1.16.0

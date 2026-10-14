@@ -1,0 +1,4 @@
+interface:
+  display_name: "海报转可编辑 PSD"
+  short_description: "完整或局部拆字，保留未选文案背景"
+  default_prompt: "把一张海报重建为分层 PSD；先选择完整拆字或局部拆字，再按阶段展示结果。"
